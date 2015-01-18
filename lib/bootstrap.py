@@ -24,6 +24,7 @@ from daynight2geojson import DayNight2Geojson
 
 filepath = '/tmp/day_night.geojson'
 # datetime(year, month, day, hour, minute)
+# No input_date is for UTC now date
 input_date = datetime(2015, 1, 15, 00, 00)
 
 dn = DayNight2Geojson(filepath, input_date=input_date)
