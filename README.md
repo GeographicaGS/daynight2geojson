@@ -4,6 +4,10 @@ Get day and night global geometry and dumps to a GeoJSON file.
 
 Output projection: Equirectangular (Cylindrical Equidistant)
 
+Examples:
+https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson
+![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200.png)
+
 
 ##Requirements
 
