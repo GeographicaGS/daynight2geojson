@@ -2,6 +2,9 @@
 
 Get day and night global geometry and dumps to a GeoJSON file.
 
+Builded on top of Matplotlib Basemap Toolkit Library. 
+Geojson and Shapely libraries are used to deal with geometries.
+
 Output projection: Equirectangular (Cylindrical Equidistant)
 
 Examples:
@@ -18,8 +21,8 @@ https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_201
 ##Requirements
 
 - Geojson Python library. https://github.com/frewsxcv/python-geojson
-- Shapely Python Library. https://github.com/Toblerity/Shapely
-- Matplotlib Basemap Toolkit Python Library. https://github.com/matplotlib/basemap
+- Shapely Python library. https://github.com/Toblerity/Shapely
+- Matplotlib Basemap Toolkit Python library. https://github.com/matplotlib/basemap
 
 
 ##Usage
