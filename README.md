@@ -35,10 +35,12 @@ Basic usage:
 from datetime import datetime
 from daynight2geojson import DayNight2Geojson
 
+# Filepath to output GeoJSON
 filepath = '/tmp/day_night.geojson'
 
 # input_date = None is for UTC now date
 # For others input date: datetime object must be passed
+#       datetime(year, month, day, hour, minute)
 input_date = datetime(2015, 1, 15, 00, 00)
 
 dn = DayNight2Geojson(filepath, input_date=input_date)
@@ -53,7 +55,7 @@ Test script:
 Developed by Cayetano Benavent (2015).
 GIS Analyst at Geographica.
 
-http://www.geographica.gs/#!/en/geographica/team
+http://www.geographica.gs/
 
 ##License
 This program is free software; you can redistribute it and/or modify
