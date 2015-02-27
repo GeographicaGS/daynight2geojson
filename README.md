@@ -7,25 +7,14 @@ Geojson and Shapely libraries are used to deal with geometries.
 
 Output projection: Equirectangular (Cylindrical Equidistant)
 
-####Examples:
-
-[Open GeoJSON day_night 2015/01/15 12:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson)
-![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200.png)
-![day_night_20150115_1200_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png)
-
-[Open GeoJSON day_night 2015/01/15 18:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson)
-![day_night_20150115_1800](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800.png)
-![day_night_20150115_1800_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800_globe.png)
-
-[Open GeoJSON day_night UTC now]https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson
-![day_night_2015_utc_now](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_2015_utc_now.png)
-
 
 ##Requirements
 
 - Geojson Python library. https://github.com/frewsxcv/python-geojson
 - Shapely Python library. https://github.com/Toblerity/Shapely
 - Matplotlib Basemap Toolkit Python library. https://github.com/matplotlib/basemap
+
+See requirements of above libraries (Numpy, Matplotlib, GEOS, etc.).
 
 
 ##Usage
@@ -50,6 +39,20 @@ dn.getDayNight()
 
 Test script:
 - lib/bootstrap.py
+
+
+##Examples:
+
+[Open GeoJSON day_night 2015/01/15 12:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson)
+![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200.png)
+![day_night_20150115_1200_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png)
+
+[Open GeoJSON day_night 2015/01/15 18:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson)
+![day_night_20150115_1800](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800.png)
+![day_night_20150115_1800_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800_globe.png)
+
+[Open GeoJSON day_night UTC now](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson)
+![day_night_2015_utc_now](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_2015_utc_now.png)
 
 
 ##About author
