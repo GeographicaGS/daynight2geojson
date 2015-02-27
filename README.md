@@ -8,15 +8,15 @@ Geojson and Shapely libraries are used to deal with geometries.
 Output projection: Equirectangular (Cylindrical Equidistant)
 
 Examples:
-![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson)
+[Open GeoJSON day_night 2015/01/15 12:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson)
 ![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200.png)
 ![day_night_20150115_1200_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png)
 
-![day_night_20150115_1800](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson)
+[Open GeoJSON day_night 2015/01/15 18:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson)
 ![day_night_20150115_1800](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800.png)
 ![day_night_20150115_1800_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800_globe.png)
 
-![day_night_2015_utc_now]https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson
+[Open GeoJSON day_night UTC now]https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson
 ![day_night_2015_utc_now](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_2015_utc_now.png)
 
 
