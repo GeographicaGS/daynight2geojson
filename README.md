@@ -10,9 +10,11 @@ Output projection: Equirectangular (Cylindrical Equidistant)
 Examples:
 https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson
 ![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200.png)
+![day_night_20150115_1200_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png)
 
 https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson
 ![day_night_20150115_1800](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800.png)
+![day_night_20150115_1800_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1800_globe.png)
 
 https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson
 ![day_night_2015_utc_now](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_2015_utc_now.png)
