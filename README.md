@@ -7,7 +7,8 @@ Geojson and Shapely libraries are used to deal with geometries.
 
 Output projection: Equirectangular (Cylindrical Equidistant)
 
-Examples:
+####Examples:
+
 [Open GeoJSON day_night 2015/01/15 12:00](https://github.com/cayetanobv/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson)
 ![day_night_20150115_1200](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200.png)
 ![day_night_20150115_1200_globe](https://github.com/cayetanobv/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png)
