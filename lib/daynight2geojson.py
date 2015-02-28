@@ -22,6 +22,11 @@ import json
 import geojson
 import shapely.geometry
 import shapely.wkt
+
+# To avoid errors if you run module without X11
+import matplotlib
+matplotlib.use('Agg')
+
 from mpl_toolkits.basemap import Basemap
 from datetime import datetime
 
