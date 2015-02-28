@@ -30,6 +30,6 @@ filepath = '/tmp/day_night.geojson'
 #       datetime(year, month, day, hour, minute)
 input_date = datetime(2015, 1, 15, 00, 00)
 
-#dn = DayNight2Geojson(filepath, input_date=input_date)
-dn = DayNight2Geojson(filepath)
+dn = DayNight2Geojson(filepath, input_date=input_date)
+#dn = DayNight2Geojson(filepath) # comment above line and uncomment this line to compute UTC now date
 dn.getDayNight()
