@@ -6,6 +6,7 @@ Builded on top of Matplotlib Basemap Toolkit Library.
 Geojson and Shapely libraries are used to deal with geometries.
 
 Output projection: Equirectangular (Cylindrical Equidistant)
+Output ellipsoid: WGS84
 
 
 ##Requirements
