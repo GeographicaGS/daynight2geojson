@@ -5,9 +5,7 @@ Get day and night global geometry and dumps to a GeoJSON file.
 Builded on top of Matplotlib Basemap Toolkit Library. 
 Geojson and Shapely libraries are used to deal with geometries.
 
-Output projection: Equirectangular (Cylindrical Equidistant)
-
-Output ellipsoid: WGS84
+Output Coordinate Reference System (CRS): EPSG 4326
 
 
 ##Requirements
