@@ -69,7 +69,8 @@ class DayNight2Geojson(object):
             date = self.input_date
             map_date = date.strftime("%d %b %Y %H:%M:%S")
         
-        map = Basemap(projection='cyl',lon_0=0)
+        map = Basemap(projection='cyl',lon_0=0, ellps='WGS84')
+
         contour_set = map.nightshade(date)
         
         self.__buildGeojson(contour_set, map_date)
