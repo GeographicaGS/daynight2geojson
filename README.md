@@ -7,12 +7,16 @@ Geojson and Shapely libraries are used to deal with geometries.
 
 Output Coordinate Reference System (CRS): EPSG 4326
 
+More about it:
+
+[Link to Geographica Blog] (http://www.blog-geographica.com/2015/03/15/mapping-the-worldwide-night-and-dump-it-to-geojson-2/)
+
 
 ##Requirements
 
-- Geojson Python library. https://github.com/frewsxcv/python-geojson
-- Shapely Python library. https://github.com/Toblerity/Shapely
-- Matplotlib Basemap Toolkit Python library. https://github.com/matplotlib/basemap
+- Geojson Python library (>= 1.0.9). https://github.com/frewsxcv/python-geojson
+- Shapely Python library (>= 1.4). https://github.com/Toblerity/Shapely
+- Matplotlib Basemap Toolkit Python library (>= 1.0.7). https://github.com/matplotlib/basemap
 
 See requirements of above libraries (Numpy, Matplotlib, GEOS, etc.).
 
