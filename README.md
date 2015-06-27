@@ -25,7 +25,7 @@ See requirements of above libraries (Numpy, Matplotlib, GEOS, etc.).
 
 Basic usage:
 
-```
+```python
 from datetime import datetime
 from daynight2geojson import DayNight2Geojson
 
