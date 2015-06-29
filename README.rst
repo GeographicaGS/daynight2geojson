@@ -1,0 +1,86 @@
+Description
+-----------
+
+Get day and night global geometry and dumps to a GeoJSON file.
+
+Builded on top of Matplotlib Basemap Toolkit Library. Geojson and
+Shapely libraries are used to deal with geometries.
+
+Output Coordinate Reference System (CRS): EPSG 4326
+
+More about it:
+
+[Link to Geographica Blog]
+(http://www.blog-geographica.com/2015/03/15/mapping-the-worldwide-night-and-dump-it-to-geojson-2/)
+
+Requirements
+------------
+
+-  Geojson Python library (>= 1.0.9).
+   https://github.com/frewsxcv/python-geojson
+-  Shapely Python library (>= 1.4). https://github.com/Toblerity/Shapely
+-  Matplotlib Basemap Toolkit Python library (>= 1.0.7).
+   https://github.com/matplotlib/basemap
+
+See requirements of above libraries (Numpy, Matplotlib, GEOS, etc.).
+
+Usage
+-----
+
+Basic usage:
+
+.. code:: python
+
+    from datetime import datetime
+    from daynight2geojson import DayNight2Geojson
+
+    # Filepath to output GeoJSON
+    filepath = '/tmp/day_night.geojson'
+
+    # input_date = None is for UTC now date
+    # For others input date: datetime object must be passed
+    #       datetime(year, month, day, hour, minute)
+    input_date = datetime(2015, 1, 15, 00, 00)
+
+    dn = DayNight2Geojson(filepath, input_date=input_date)
+    dn.getDayNight()
+
+Test script: - lib/bootstrap.py
+
+Examples:
+---------
+
+`Open GeoJSON day\_night 2015/01/15
+12:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson>`__
+|day\_night\_20150115\_1200| |day\_night\_20150115\_1200\_globe|
+
+`Open GeoJSON day\_night 2015/01/15
+18:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson>`__
+|day\_night\_20150115\_1800| |day\_night\_20150115\_1800\_globe|
+
+`Open GeoJSON day\_night UTC
+now <https://github.com/GeographicaGS/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson>`__
+|day\_night\_2015\_utc\_now|
+
+About author
+------------
+
+Developed by Cayetano Benavent (2015).
+
+GIS Analyst at Geographica.
+
+http://www.geographica.gs/
+
+License
+-------
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 2 of the License, or (at your
+option) any later version.
+
+.. |day\_night\_20150115\_1200| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1200.png
+.. |day\_night\_20150115\_1200\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png
+.. |day\_night\_20150115\_1800| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1800.png
+.. |day\_night\_20150115\_1800\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1800_globe.png
+.. |day\_night\_2015\_utc\_now| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_2015_utc_now.png
