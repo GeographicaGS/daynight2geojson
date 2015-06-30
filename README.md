@@ -1,5 +1,7 @@
 ##Description
 
+[![Build Status](https://travis-ci.org/GeographicaGS/daynight2geojson.svg?branch=master)](https://travis-ci.org/GeographicaGS/daynight2geojson)
+
 Get day and night global geometry and dumps to a GeoJSON file.
 
 Builded on top of Matplotlib Basemap Toolkit Library. 

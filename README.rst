@@ -1,6 +1,9 @@
 Description
 -----------
 
+.. image:: https://travis-ci.org/GeographicaGS/daynight2geojson.svg?branch=master
+    :target: https://travis-ci.org/GeographicaGS/daynight2geojson
+
 Get day and night global geometry and dumps to a GeoJSON file.
 
 Builded on top of Matplotlib Basemap Toolkit Library. Geojson and
@@ -45,21 +48,21 @@ Basic usage:
     dn = DayNight2Geojson(filepath, input_date=input_date)
     dn.getDayNight()
 
-Test script: - lib/bootstrap.py
+Test script: - test/daynighttesting.py
 
 Examples:
 ---------
 
 `Open GeoJSON day\_night 2015/01/15
-12:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/geojson/day_night_20150115_1200.geojson>`__
+12:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_20150115_1200.geojson>`__
 |day\_night\_20150115\_1200| |day\_night\_20150115\_1200\_globe|
 
 `Open GeoJSON day\_night 2015/01/15
-18:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/geojson/day_night_20150115_1800.geojson>`__
+18:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_20150115_1800.geojson>`__
 |day\_night\_20150115\_1800| |day\_night\_20150115\_1800\_globe|
 
 `Open GeoJSON day\_night UTC
-now <https://github.com/GeographicaGS/daynight2geojson/blob/master/geojson/day_night_2015_utc_now.geojson>`__
+now <https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_2015_utc_now.geojson>`__
 |day\_night\_2015\_utc\_now|
 
 About author
@@ -79,8 +82,10 @@ under the terms of the GNU General Public License as published by the
 Free Software Foundation; either version 2 of the License, or (at your
 option) any later version.
 
-.. |day\_night\_20150115\_1200| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1200.png
-.. |day\_night\_20150115\_1200\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1200_globe.png
-.. |day\_night\_20150115\_1800| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1800.png
-.. |day\_night\_20150115\_1800\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_20150115_1800_globe.png
-.. |day\_night\_2015\_utc\_now| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/day_night_2015_utc_now.png
+.. |Build Status| image:: https://travis-ci.org/GeographicaGS/daynight2geojson.svg?branch=master
+   :target: https://travis-ci.org/GeographicaGS/daynight2geojson
+.. |day\_night\_20150115\_1200| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1200.png
+.. |day\_night\_20150115\_1200\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1200_globe.png
+.. |day\_night\_20150115\_1800| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1800.png
+.. |day\_night\_20150115\_1800\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1800_globe.png
+.. |day\_night\_2015\_utc\_now| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/data/day_night_2015_utc_now.png
