@@ -23,17 +23,25 @@
 from datetime import datetime
 from daynight2geojson.daynight2geojson import DayNight2Geojson
 
-# Filepath to output GeoJSON
-filepath = '/tmp/day_night.geojson'
 
-# input_date = None is for UTC now date
-# For others input date: datetime object must be passed
-#       datetime(year, month, day, hour, minute)
-input_date = datetime(2015, 1, 15, 00, 00)
+def runTest(filepath, input_date):
+    
+    dn = DayNight2Geojson(filepath, input_date=input_date)
+    dn.getDayNight()
+    
+    # Without input_date it computes UTC now date
+    dn_now = DayNight2Geojson(filepath)
+    dn_now.getDayNight()
 
-dn = DayNight2Geojson(filepath, input_date=input_date)
-dn.getDayNight()
 
-# Without input_date it computes UTC now date
-dn_now = DayNight2Geojson(filepath)
-dn_now.getDayNight()
+if __name__ == "__main__":
+    # Filepath to output GeoJSON
+    filepath = '/tmp/day_night.geojson'
+    
+    # input_date = None is for UTC now date
+    # For others input date: datetime object must be passed
+    #       datetime(year, month, day, hour, minute)
+    input_date = datetime(2015, 1, 15, 00, 00)
+    
+    runTest(filepath, input_date)
+    
