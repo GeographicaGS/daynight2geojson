@@ -72,7 +72,7 @@ Test script:
 ![day_night_20150115_1800_globe](https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1800_globe.png)
 
 [Open GeoJSON day_night UTC now](https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_2015_utc_now.geojson)
-![day_night_2015_utc_now](https://github.com/GeographicaGS/daynight2geojson/blob/master/img/data/day_night_2015_utc_now.png)
+![day_night_2015_utc_now](https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_2015_utc_now.png)
 
 
 ##About author
