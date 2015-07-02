@@ -1,6 +1,7 @@
 ##Description
 
 [![Build Status](https://travis-ci.org/GeographicaGS/daynight2geojson.svg?branch=master)](https://travis-ci.org/GeographicaGS/daynight2geojson)
+[![PyPI version](https://badge.fury.io/py/daynight2geojson.svg)](http://badge.fury.io/py/daynight2geojson)
 
 Get day and night global geometry and dumps to a GeoJSON file.
 
