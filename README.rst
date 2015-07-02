@@ -11,10 +11,6 @@ Shapely libraries are used to deal with geometries.
 
 Output Coordinate Reference System (CRS): EPSG 4326
 
-More about it:
-
-[Link to Geographica Blog]
-(http://www.blog-geographica.com/2015/03/15/mapping-the-worldwide-night-and-dump-it-to-geojson-2/)
 
 Requirements
 ------------
@@ -26,6 +22,13 @@ Requirements
    https://github.com/matplotlib/basemap
 
 See requirements of above libraries (Numpy, Matplotlib, GEOS, etc.).
+
+Installing
+----------
+
+If you want to install from pip and you do not have installed Basemap:
+
+pip install daynight2geojson --allow-external basemap --allow-unverified basemap
 
 Usage
 -----
@@ -50,20 +53,11 @@ Basic usage:
 
 Test script: - test/daynighttesting.py
 
+
 Examples:
 ---------
 
-`Open GeoJSON day\_night 2015/01/15
-12:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_20150115_1200.geojson>`__
-|day\_night\_20150115\_1200| |day\_night\_20150115\_1200\_globe|
-
-`Open GeoJSON day\_night 2015/01/15
-18:00 <https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_20150115_1800.geojson>`__
-|day\_night\_20150115\_1800| |day\_night\_20150115\_1800\_globe|
-
-`Open GeoJSON day\_night UTC
-now <https://github.com/GeographicaGS/daynight2geojson/blob/master/data/geojson/day_night_2015_utc_now.geojson>`__
-|day\_night\_2015\_utc\_now|
+https://github.com/GeographicaGS/daynight2geojson
 
 About author
 ------------
@@ -84,8 +78,3 @@ option) any later version.
 
 .. |Build Status| image:: https://travis-ci.org/GeographicaGS/daynight2geojson.svg?branch=master
    :target: https://travis-ci.org/GeographicaGS/daynight2geojson
-.. |day\_night\_20150115\_1200| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1200.png
-.. |day\_night\_20150115\_1200\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1200_globe.png
-.. |day\_night\_20150115\_1800| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1800.png
-.. |day\_night\_20150115\_1800\_globe| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/data/img/day_night_20150115_1800_globe.png
-.. |day\_night\_2015\_utc\_now| image:: https://github.com/GeographicaGS/daynight2geojson/blob/master/img/data/day_night_2015_utc_now.png

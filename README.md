@@ -4,7 +4,7 @@
 
 Get day and night global geometry and dumps to a GeoJSON file.
 
-Builded on top of Matplotlib Basemap Toolkit Library. 
+Builded on top of Matplotlib Basemap Toolkit Library.
 Geojson and Shapely libraries are used to deal with geometries.
 
 Output Coordinate Reference System (CRS): EPSG 4326
@@ -22,6 +22,19 @@ More about it:
 
 See requirements of above libraries (Numpy, Matplotlib, GEOS, etc.).
 
+## Installing
+You can install this package from PYPI:
+https://pypi.python.org/pypi/daynight2geojson
+
+```bash
+$ pip install daynight2geojson
+```
+
+If you want to install from pip and you do not have installed Basemap:
+
+```bash
+$ pip install daynight2geojson --allow-external basemap --allow-unverified basemap
+```
 
 ##Usage
 
@@ -73,4 +86,3 @@ This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
 (at your option) any later version.
-
